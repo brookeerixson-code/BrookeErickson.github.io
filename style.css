@@ -58,3 +58,13 @@ footer{display:flex;align-items:center;justify-content:space-between;padding:30p
   .site-header{padding:0 6vw}.menu-toggle{display:block}.nav{display:none;position:absolute;top:78px;left:0;right:0;background:white;padding:20px 6vw;border-bottom:1px solid var(--line);flex-direction:column;gap:18px}.nav.open{display:flex}
   .hero{grid-template-columns:1fr;padding:60px 7vw;min-height:auto}.hero-image-wrap{max-width:360px;order:0}.hero-copy{order:1}.intro-strip,.about-grid,.contact-card{grid-template-columns:1fr}.intro-strip{padding:24px 7vw;gap:8px}.section{padding:80px 7vw}.project-grid{grid-template-columns:1fr}.about-photo-stack{max-width:500px}.contact-card{padding:35px}.photo-grid{grid-template-columns:1fr;height:570px}.photo-grid img:nth-child(n+2){display:none}.timeline-item{grid-template-columns:80px 1fr}.contact-copy h2{font-size:48px}
 }
+
+/* Accessibility: visible keyboard focus */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #2f6f9f;
+  outline-offset: 3px;
+}
